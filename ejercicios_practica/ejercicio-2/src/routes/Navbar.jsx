@@ -1,8 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  return (
-    <header>
+  return ( 
         <nav>
             <ul>
                 <li>
@@ -15,11 +14,16 @@ const Navbar = () => {
                     <NavLink to={'/componente2'} className={({isActive}) => (isActive ? "active" : "")}> Componente 2</NavLink>
                 </li>
                 <li>
-                    <NavLink to={'/error404'} className={({isActive}) => (isActive ? "active" : "")}> Error 404</NavLink>
+                    <NavLink to={'/subrutas'} className={({isActive}) => (isActive ? "active" : "")}>
+                    Sub-Rutas</NavLink>
+                </li>
+                <li>
+                    <NavLink to={'/persona'} className={({isActive}) => (isActive ? "active" : "")}>
+                    Persona</NavLink>
                 </li>
             </ul>
         </nav>
-    </header>
+    
   )
 }
 

@@ -45,7 +45,7 @@ Paso 5: Crear subrutas
 - Crea un componente llamado "SubRuta1" en el archivo "SubRuta1.jsx" que muestre un título para representar la primera subruta.
 - Crea un componente llamado "SubRuta2" en el archivo "SubRuta2.jsx" que muestre un título para representar la segunda subruta.
 - Crea un componente llamado "RouterSubRutas" en el archivo "RouterSubRutas.jsx" dentro de la carpeta "routes". Este componente será el enrutador de las subrutas.
-- En el componente "RouterSubRutas", crea una navegación con enlaces a la página de InicioSubRuta, "SubRuta1" y "SubRuta2".
+- En el componente "RouterSubRutas", crea una navegación con enlaces a la página de InicioSubRuta, "SubRuta1" y "SubRuta2". 
 - Utiliza el componente "Outlet" de React Router para representar las subrutas dentro del componente "RouterSubRutas".
 
 Paso 6: Configurar las subrutas
